@@ -4,6 +4,7 @@ import PersonalInformationStep from "./components/PersonalInformationStep";
 import BillingInformationStep from "./components/BillingInformationStep";
 import LegalInformationStep from "./components/LegalInformationStep";
 import CongratulationsStep from "./components/CongratulationsStep";
+import MyForm from "./components/MyForm";
 
 const MAX_STEP = 3;
 
@@ -82,6 +83,7 @@ const App = () => {
           <pre>{JSON.stringify(watch(), null, 2)}</pre>
         </form>
       </div>
+      <MyForm/>
     </div>
   );
 };
